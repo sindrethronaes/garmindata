@@ -3,7 +3,7 @@ import json
 from garminconnect import Garmin
 
 def init_api():
-    api = Garmin('sthronae@online.no','Garminsjokolade12')
+    api = Garmin('','') # Insert username & Password here
     api.login()
     return api
 
